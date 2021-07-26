@@ -16,7 +16,7 @@ chmod 770 ./get-docker.sh
 ```
 sudo add-apt-repository ppa:linuxuprising/java
 sudo apt-get update
-sudo apt install -y oracle-java16-installer
+sudo apt install -y oracle-java16-installer --install-recommends
 java -version
 ```
 ## Installing Maven 
