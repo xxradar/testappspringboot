@@ -34,3 +34,29 @@ Edit demo/src/main/resources/application.properties and add:
 ```
 server.address=0.0.0.0
 ```
+3. Test your code (goto demo directory)
+```
+./mvnw spring-boot:run
+```
+You can now do something like from another terminal
+```
+curl http://127.0.0.1/hello?name=xxradar
+```
+4. Building a container image
+```
+./mvnw package && java -jar target/gs-spring-boot-docker-0.1.0.jar
+```
+Create a Dockerfile
+```
+FROM openjdk
+ARG JAR_FILE=target/*.jar
+COPY ${JAR_FILE} app.jar
+ENTRYPOINT ["java","-jar","/app.jar"]
+ubuntu@ip-10-11-2-25:~/testappspringboot
+```
+```
+sudo docker build -t springio/gs-spring-boot-docker .
+```
+```
+sudo docker run -it springio/gs-spring-boot-docker
+```
