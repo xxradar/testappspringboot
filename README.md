@@ -1,7 +1,7 @@
 # testappspringboot
 
 
-1. Setup an environment as in [sethup.md](#setup.md) (needs some finetuning -- wip)
+1. Setup an environment as in [setup.md](#setup.md) (needs some finetuning -- wip)
 2. Deploy your code
 ```
 cd demo/src/main/java/com/example/demo/
