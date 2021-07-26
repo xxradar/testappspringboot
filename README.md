@@ -3,10 +3,11 @@
 
 1. Setup an environment as in [setup.md](#setup.md) (needs some finetuning -- wip)
 2. Deploy your code
+3. Edit your code
 ```
 cd demo/src/main/java/com/example/demo/
 ```
-Edit DemoApplication.java
+Edit DemoApplication.java to reflect this example
 ```
 package com.example.demo;
 
