@@ -1,7 +1,7 @@
 # testappspringboot
 
 
-!. Setup an envirnment via setup.sh (needs some finetuning -- wip)
+1. Setup an envirnment via setup.sh (needs some finetuning -- wip)
 2. Deploy your code
 ```
 cd demo/src/main/java/com/example/demo/
