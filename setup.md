@@ -14,7 +14,7 @@ chmod 770 ./get-docker.sh
 ```
 ## Installing JDK  
 ```
-sudo add-apt-repository ppa:linuxuprising/java
+sudo add-apt-repository -y ppa:linuxuprising/java
 sudo apt-get update
 sudo apt install -y oracle-java16-installer --install-recommends
 java -version
