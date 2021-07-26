@@ -57,5 +57,5 @@ ENTRYPOINT ["java","-jar","/app.jar"]
 sudo docker build -t springio/gs-spring-boot-docker .
 ```
 ```
-sudo docker run -it springio/gs-spring-boot-docker
+sudo docker run -d -p 8080:8080 springio/gs-spring-boot-docker
 ```
