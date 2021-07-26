@@ -1,4 +1,4 @@
-# testappspringboot
+# Springboot application demo script
 
 
 1. Setup an environment as in [setup.md](setup.md) (needs some finetuning -- wip)
