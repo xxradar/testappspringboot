@@ -2,7 +2,7 @@
 
 
 1. Setup an environment as in [setup.md](#setup.md) (needs some finetuning -- wip)
-2. Deploy your code
+2. Copy your code (https://start.spring.io)
 3. Edit your code
 ```
 cd demo/src/main/java/com/example/demo/
