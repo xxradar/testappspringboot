@@ -27,7 +27,7 @@ export PATH="$HOME/apache-maven-3.8.1/bin:$PATH"
 mvn  -v
 ````
 
-## Getting Demo app  
+## Getting Demo app  (optional)
 ```
 git clone https://github.com/xxradar/testappspringboot.git
 cd testappspringboot/
