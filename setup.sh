@@ -25,5 +25,5 @@ mvn  -v
 # echo "Getting Demo app  ----"
 git clone https://github.com/xxradar/testappspringboot.git
 cd testappspringboot/
-unzip demo.zip
+unzip demotest.zip
 
