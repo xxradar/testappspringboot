@@ -35,7 +35,7 @@ Edit demo/src/main/resources/application.properties and add:
 ```
 server.address=0.0.0.0
 ```
-3. Test your code (goto demo directory)
+4. Test your code (goto demo directory)
 ```
 ./mvnw spring-boot:run
 ```
@@ -43,7 +43,7 @@ You can now do something like from another terminal
 ```
 curl http://127.0.0.1/hello?name=xxradar
 ```
-4. Building a container image
+5. Building a container image
 ```
 ./mvnw package && java -jar target/gs-spring-boot-docker-0.1.0.jar
 ```
