@@ -53,9 +53,14 @@ ARG JAR_FILE=target/*.jar
 COPY ${JAR_FILE} app.jar
 ENTRYPOINT ["java","-jar","/app.jar"]
 ```
+Build the image ...
 ```
 sudo docker build -t springio/gs-spring-boot-docker .
 ```
+Test the image ...
 ```
 sudo docker run -d -p 8080:8080 springio/gs-spring-boot-docker
+```
+```
+curl http://127.0.0.1/hello
 ```
