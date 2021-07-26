@@ -1,7 +1,7 @@
 # Springboot application demo script
 
 
-1. Setup an environment as in [setup.md](setup.md) (needs some finetuning -- wip)
+1. Setup an environment as in [setup.md](setup.md) 
 2. Copy your code (https://start.spring.io) or use the provided example [setup.md](setup.md) (section #getting_demo_app)
 3. Edit your code
 ```
