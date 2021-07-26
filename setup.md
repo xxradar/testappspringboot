@@ -6,7 +6,7 @@ sudo apt-get update
 sudo apt-get install -y git unzip
 ```
 
-## Installing Docker ...
+## Installing Docker
 ```
 curl -fsSL https://get.docker.com -o get-docker.sh
 chmod 770 ./get-docker.sh
