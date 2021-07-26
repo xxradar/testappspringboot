@@ -52,7 +52,6 @@ FROM openjdk
 ARG JAR_FILE=target/*.jar
 COPY ${JAR_FILE} app.jar
 ENTRYPOINT ["java","-jar","/app.jar"]
-ubuntu@ip-10-11-2-25:~/testappspringboot
 ```
 ```
 sudo docker build -t springio/gs-spring-boot-docker .
